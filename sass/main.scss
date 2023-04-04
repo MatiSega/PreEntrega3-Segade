@@ -10,7 +10,7 @@
         padding-right: 70%;
     }
     .fondo__contacto{
-        background-color: #b3f5df;
+        background-color: $fondo;
         padding-bottom: 50px;
     }
     .contacto2{
@@ -21,7 +21,7 @@
     }
 
     #contenido{
-        background-color: #b3f5df;
+        background-color: $fondo;
         display: grid;
     }
     .boton{
@@ -67,7 +67,7 @@
         color: brown;
     }
     .titular{
-        background-color: #b3f5df;
+        background-color: $fondo;
             
     }
     /* Fuentes de texto */

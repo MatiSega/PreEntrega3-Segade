@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header__nav{
+    background:linear-gradient( 45deg, #8CC64A 50%, #334B85 50%) ;
+    height: 100px;
+    width: auto;
+
+}
+.header__logo{
+    display: flex;
+}
+.header__titulo{
+    font-family: serif;
+    font-size: 3em;
+    font-weight: 400;
+    color: #fff;
+}
+.header__input:checked + .header__label{
+    background-color: rgb(216, 146, 121);
+}
+.header__img{
+    border-radius: 100%;
+}
+.header__nav__container{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__label, .header__input{
+    display: none;
+}
+.header__nav__ul{
+    display: flex;
+    grid-auto-flow: column;
+    gap: 3em;
+    list-style: none;
+    
+
+}
+.header__nav__ul__item{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: serif;
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    
+}
+.header__nav__ul__item::after{
+    content: "";
+    display: block;
+    background-color: #fff;
+    height: 3px;
+    width: 90%;
+    clip-path: var(--clippy);
+    transition: clip-path 1.3s;
+    
+}
+.header__nav__ul__item:hover{
+    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    color: brown;
+   
+   
+    
+}

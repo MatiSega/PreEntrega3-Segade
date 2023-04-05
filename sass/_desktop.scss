@@ -23,7 +23,7 @@
     clip-path: circle(100% at center);
 }
 #contenido{
-    background-color: aquamarine;
+    background-color: #b3f5df;
     max-width: 100%;
     border: 1%;
     overflow: scroll;   
@@ -56,7 +56,7 @@ display: contents;
 justify-content: center;
 }
 .titular{
-background-color: aquamarine;
+background-color: #b3f5df;
    &.__productos{  align-items: center;}
 }
 .ImgMapa{
@@ -69,7 +69,7 @@ background-color: aquamarine;
     align-items: center;
 }
 .fondo--contacto {
-background-color: aquamarine;
+background-color: #b3f5df;
 padding-bottom: 50px;
 display: flex;
 flex-direction: row;
@@ -92,7 +92,7 @@ align-items: center;
 }
 .pie{
 display: grid;
-background:linear-gradient(145deg, #8CC64A 55%, #334B85 25%);
+background:linear-gradient(340deg, #8CC64A 55%, #334B85 25%);
 margin-top: 1px;
 padding-top: 10px;
 }

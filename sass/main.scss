@@ -10,8 +10,9 @@
         padding-right: 70%;
     }
     .fondo__contacto{
-        background-color: #b3f5df;
+        background-color:#b3f5df;
         padding-bottom: 50px;
+        padding-left: 7px;
     }
     .contacto2{
         display: flex;
@@ -23,6 +24,8 @@
     #contenido{
         background-color: #b3f5df;
         display: grid;
+        padding: 5px;
+        gap: 1em
     }
     .boton{
         display: none;
@@ -66,9 +69,14 @@
     a:hover{
         color: brown;
     }
-    .titular{
+   .titular{
         background-color: #b3f5df;
-            
+           h2{
+            padding: 5px;
+        } 
+        p{
+            padding-left: 5px;
+        }
     }
     /* Fuentes de texto */
     #contenido{

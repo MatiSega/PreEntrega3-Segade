@@ -169,7 +169,7 @@
 .pie {
   display: grid;
   align-items: center;
-  background: linear-gradient(145deg, #8CC64A 55%, #334B85 25%);
+  background: linear-gradient(340deg, #8CC64A 55%, #334B85 25%);
   margin-top: 1px;
   padding-top: 10px;
 }
@@ -298,6 +298,7 @@
 .fondo__contacto {
   background-color: #b3f5df;
   padding-bottom: 50px;
+  padding-left: 7%;
 }
 
 .contacto2 {

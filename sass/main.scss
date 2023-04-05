@@ -53,14 +53,41 @@
         width: 100%;
     }
     /* botones de viviendas */
-    .botones{
-        font-size: 50px;
-        color: black;
-        border-radius: 20px;
-        background-color: bisque;
-        text-decoration: none;
-        font-family: sans-serif;
+    @keyframes botonVivienda{
+        0%{
+            width: 20%;
+            font-size: 50px;
+            text-decoration: none;
+        }
+        50%{width: 50%;
+            background-color: #8CC64A;
+            text-decoration: none;
+            font-size: 50px;
+            color: #0000;
+        }
+        100%{ width: 100%;
+            font-size: 50px;
+            background-color: #334B85;
+            color: #fff;
+        }
+        
     }
+    .botones{
+        border-radius: 30px;
+        font-family: sans-serif;
+        color: black;
+       
+    }
+.contenedorBoton{   
+    animation-name: botonVivienda;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    text-decoration: none;
+    border-radius: 40px;
+
+}
 
     .main__div__parrafo__img{
         width: 100%; 

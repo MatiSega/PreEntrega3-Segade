@@ -72,9 +72,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    img{
+        display: flex;
+    }
 }
  .pie{
-    display: grid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background:linear-gradient(345deg, #8CC64A 55%, #334B85 25%);
     margin-top: 1px;
     padding-top: 10px;

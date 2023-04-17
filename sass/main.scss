@@ -63,8 +63,25 @@
     .d-block{
         height: 600px;;}
     .imgVivienda{
+        width: 50%;
+    }
+    .imgSomos{
         width: 100%;
     }
+    .contenedor__vivienda{
+        display: flex;
+    }
+    .carousel-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .carousel-item img {
+        display: block;
+        margin: auto;
+      }
+      
     /* botones de viviendas */
     @keyframes botonVivienda{
         0%{

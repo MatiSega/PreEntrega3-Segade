@@ -78,8 +78,13 @@
     justify-content: center;
     align-items: center;
   }
+  .contacto2 img {
+    display: flex;
+  }
   .pie {
-    display: grid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: linear-gradient(345deg, #8CC64A 55%, #334B85 25%);
     margin-top: 1px;
     padding-top: 10px;
@@ -167,12 +172,13 @@
 }
 
 .pie {
-  display: grid;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   background: linear-gradient(340deg, #8CC64A 55%, #334B85 25%);
   background: linear-gradient(345deg, #8CC64A 55%, #334B85 25%);
   margin-top: 1px;
-  padding-top: 10px;
+  padding: 10px;
 }
 
 .pie a {
@@ -188,7 +194,7 @@
     position: fixed;
     top: 80px;
     bottom: 0;
-    background-color: rgb(216, 146, 121);
+    background: linear-gradient(145deg, #8CC64A 55%, #334B85 25%);
     width: 100%;
     left: 0;
     display: flex;
@@ -277,7 +283,9 @@
     align-items: center;
   }
   .pie {
-    display: grid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: linear-gradient(340deg, #8CC64A 55%, #334B85 25%);
     margin-top: 1px;
     padding-top: 10px;
@@ -359,7 +367,26 @@
 }
 
 .imgVivienda {
+  width: 50%;
+}
+
+.imgSomos {
   width: 100%;
+}
+
+.contenedor__vivienda {
+  display: flex;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item img {
+  display: block;
+  margin: auto;
 }
 
 /* botones de viviendas */

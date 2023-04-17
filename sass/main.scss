@@ -88,6 +88,12 @@
     border-radius: 40px;
 
 }
+.contenedor__inicio{
+    display: grid;
+        h3{display: flex;}
+        p{display:flex;}
+        img{display: flex;}
+}
     .main__div__parrafo__img{
         width: 100%; 
         height: 600px;

@@ -45,8 +45,11 @@
   .main__div__parrafo {
     max-width: 100%;
   }
-  .main__div__parrafo__img {
-    max-width: 100%;
+  .contenedor__inicio {
+    display: grid !important;
+  }
+  .contenedor__inicio img {
+    width: 100% !important;
   }
   .main__div {
     display: grid;

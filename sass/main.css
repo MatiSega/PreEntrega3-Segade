@@ -64,6 +64,9 @@
   .titular.__productos {
     align-items: center;
   }
+  .d-block {
+    width: 100%;
+  }
   .fondo--contacto {
     background-color: #b3f5df;
     padding-bottom: 50px;
@@ -72,6 +75,13 @@
   }
   .botones {
     white-space: nowrap;
+  }
+  .contacto {
+    display: grid !important;
+  }
+  .imgcontacto {
+    display: flex;
+    padding-right: 5px;
   }
   .contacto2 {
     flex-direction: column;
@@ -260,6 +270,13 @@
     flex-direction: column !important;
     align-items: center;
   }
+  .contacto {
+    display: grid !important;
+  }
+  .imgcontacto {
+    padding-right: 5px !important;
+    display: flex;
+  }
   .fondo--contacto {
     background-color: #b3f5df;
     padding-bottom: 50px;
@@ -276,6 +293,8 @@
   .contacto__2 {
     width: 80%;
     height: 450;
+    margin: 6px;
+    padding-right: 5px;
   }
   .contacto2 {
     flex-direction: column;

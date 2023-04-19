@@ -68,6 +68,11 @@ background-color: #b3f5df;
     flex-direction: column  !important ;
     align-items: center;
 }
+.contacto{
+    display: grid !important;}
+.imgcontacto{
+    padding-right: 5px !important;
+    display: flex;}
 .fondo--contacto {
 background-color: #b3f5df;
 padding-bottom: 50px;
@@ -84,6 +89,8 @@ white-space: nowrap;
 .contacto__2{
     width: 80%;
     height: 450;
+    margin: 6px;
+    padding-right: 5px;
 }
 .contacto2{
 flex-direction: column;

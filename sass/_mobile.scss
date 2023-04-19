@@ -58,7 +58,7 @@
     background-color: #b3f5df;
        &.__productos{  align-items: center;}
 }
-
+.d-block{ width: 100%;}
 .fondo--contacto {
     background-color: #b3f5df;
     padding-bottom: 50px;
@@ -67,6 +67,12 @@
 }
 .botones{
     white-space: nowrap;
+}
+.contacto{
+    display: grid !important;}
+.imgcontacto{
+    display: flex ;
+    padding-right: 5px;
 }
 .contacto2{
     flex-direction: column;
